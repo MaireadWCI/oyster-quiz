@@ -14,4 +14,15 @@ function displayQuestion() {
     });
 }
 
+/**
+ * Loads next question.
+ */
+function nextQuestion() {
+    questionCounter++;
+    if (questionCounter < oysterQuestions.length) {
+        displayQuestion();
+    }
+}
+
 displayQuestion();
+nextQuestion();
