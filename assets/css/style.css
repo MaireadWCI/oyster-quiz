@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Logo */
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(11, 177, 248);
+    text-decoration: none;
+}
+
+
