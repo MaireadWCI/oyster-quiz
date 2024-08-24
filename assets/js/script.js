@@ -1,6 +1,9 @@
 let question = document.getElementById('question');
 let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
+let result = document.getElementById('result');
+let quizArea = document.getElementById('quiz-area');
+let resultArea = document.getElementById('result-area');
 
 
 let counter = 0;
@@ -24,6 +27,8 @@ function nextQuestion() {
     counter++;
     if (counter < oysterQuestions.length) {
         displayQuestion();
+    } else {
+        displayResult();
     }
 }
 
@@ -48,5 +53,26 @@ function incrementScore() {
     nextQuestion();
 }
 
+/**
+ * Restarts quiz once player has finished, sets user
+ * score to zero and resets the counter. 
+ */
+function restartQuiz() {
+    resultArea.classList.add('hidden');
+    quizArea.classList.remove('hidden');
+    score = 0;
+    counter = 0;
+    displayQuestion();
+   
+}
+
+/**
+ * displays final score to user. 
+ */
+function displayResult() {
+    resultArea.classList.remove('hidden');
+    quizArea.classList.add('hidden');
+    result.innerHTML = score;
+}
 
 displayQuestion();

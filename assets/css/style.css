@@ -13,4 +13,9 @@
     text-decoration: none;
 }
 
+/* Hidden class - displays and shows areas as neccessary */
+.hidden {
+    display: none;
+}
+
 

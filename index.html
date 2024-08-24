@@ -20,20 +20,31 @@
         </a>
     </header>
     <main>
-        <div id="question-section">
-            <div id="question"></div>
-        </div>
-        <div id="answer-section">
-            <div id="answer">
-                <button class="answers" value="answer-btn"></button>
-                <button class="answers" value="answer-btn"></button>
-                <button class="answers" value="answer-btn"></button>
-                <button class="answers" value="answer-btn"></button>
+        <section id="quiz-area">
+            <div id="question-section">
+                <div id="question"></div>
             </div>
-        </div>
-        <div>
-            <p id="scores">Score:<span id="score">0</span></p>
-        </div>
+            <div id="answer-section">
+                <div id="answer">
+                    <button class="answers" value="answer-btn"></button>
+                    <button class="answers" value="answer-btn"></button>
+                    <button class="answers" value="answer-btn"></button>
+                    <button class="answers" value="answer-btn"></button>
+                </div>
+            </div>
+            <div>
+                <p id="scores">Score:<span id="score">0</span></p>
+            </div>
+        </section>
+        <!--Result area, lets the user know there final score and shows a restart quiz button -->
+        <section id="result-area" class="hidden">
+            <h3>Well done! You have completed the quiz.</h3>
+            <h3>Your result was: <span id="result">0</span> out of 15!</h3>
+            <div>
+                <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts quiz">Try
+                    again!</button>
+            </div>
+        </section>
     </main>
     <footer>
        
