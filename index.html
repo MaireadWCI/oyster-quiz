@@ -41,9 +41,15 @@
             <h3>Well done! You have completed the quiz.</h3>
             <h3>Your result was: <span id="result">0</span> out of 15!</h3>
             <div>
-                <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts quiz">Try
-                    again!</button>
+                <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts quiz">Try again!</button>
             </div>
+            <div>
+                <button onclick="displayCorrectAnswers()" aria-label="Shows the user the correct answers to the questions">Show Correct Answers</button>
+            </div>
+        </section>
+        <!--Correct answers area shows the user the correct answers to the quiz -->
+        <section id="correct-answers-area" class="hidden">
+            <div id="correct-answers"></div>
         </section>
     </main>
     <footer>
