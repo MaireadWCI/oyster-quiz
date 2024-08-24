@@ -9,13 +9,28 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    color: rgb(11, 177, 248);
+    color: rgb(0, 84, 147);
     text-decoration: none;
 }
 
 /* Hidden class - displays and shows areas as neccessary */
 .hidden {
     display: none;
+}
+
+/* Header */
+header {
+    background-color: whitesmoke;
+}
+
+/* Background image */
+
+body {
+    background-image: url('../images/oysters.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 

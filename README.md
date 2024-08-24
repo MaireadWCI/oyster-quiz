@@ -5,3 +5,6 @@ https://kupidonia.com/quiz-answers/quiz-oyster
 
 ## code
 map function: https://stackoverflow.com/questions/38364400/index-inside-map-function 
+
+## image
+https://nypost.com/2023/10/13/woman-ate-48-oysters-on-a-date-what-happened-next-was-shocking/ 

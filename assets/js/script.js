@@ -69,7 +69,7 @@ function restartQuiz() {
 }
 
 /**
- * displays result to user. 
+ * Displays result to user. 
  */
 function displayResult() {
     resultArea.classList.remove('hidden');
@@ -77,6 +77,10 @@ function displayResult() {
     result.innerHTML = score;
 }
 
+/**
+ * Displays the questions with the correct answer 
+ * to the user.  
+ */
 function displayCorrectAnswers() {
     correctAnswersArea.classList.remove('hidden');
     let correct = oysterQuestions.map((question) => {
