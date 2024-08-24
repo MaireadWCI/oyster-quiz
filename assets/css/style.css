@@ -33,4 +33,27 @@ body {
     height: 100vh;
 }
 
+/* Quiz area */
+
+#quiz-area {
+    background-color: rgba(0, 84, 147, 0.6);
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+/* Question area */
+
+#question-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: #666;
+    border-radius: 15px;
+    text-align: center;
+}
+
 
