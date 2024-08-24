@@ -44,7 +44,7 @@ body {
     color: whitesmoke;
 }
 
-/* Question area */
+/* Question section */
 
 #question-section {
     display: flex;
@@ -53,7 +53,27 @@ body {
     margin-bottom: 10px;
     background-color: #666;
     border-radius: 15px;
+    font-size: 150%;
     text-align: center;
 }
 
+/* Answer section */
 
+#answer-section {
+    display: flex;
+    justify-content: center;
+}
+
+#answer {
+    display: flex;
+    flex-direction: column; 
+    gap: 1em;  
+}
+
+.answers {
+    width: 300px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 150%;
+}
