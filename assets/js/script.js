@@ -3,6 +3,7 @@ let answers = document.querySelectorAll('.answers');
 
 
 let questionCounter = 0;
+let score = 0;
 
 /**
  * Displays question and answers.   
@@ -23,6 +24,14 @@ function nextQuestion() {
         displayQuestion();
     }
 }
+
+/**
+ * Shows score to the user.
+ */
+function showScore() {
+    score.innerHTML = score;
+}
+
 
 displayQuestion();
 nextQuestion();
