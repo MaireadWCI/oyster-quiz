@@ -11,6 +11,7 @@
     padding: 20px;
     color: rgb(0, 84, 147);
     text-decoration: none;
+    font-size: 150%;
 }
 
 /* Hidden class - displays and shows areas as neccessary */
@@ -20,7 +21,10 @@
 
 /* Header */
 header {
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    margin: 20px auto 0;
+    border-radius: 15px;
 }
 
 /* Background image */
@@ -76,4 +80,7 @@ body {
     background-color: whitesmoke;
     border-radius: 15px;
     font-size: 150%;
+    color: #666;
 }
+
+
