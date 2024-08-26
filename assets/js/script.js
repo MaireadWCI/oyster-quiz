@@ -4,7 +4,7 @@ let scores = document.getElementById("score");
 let result = document.getElementById('result');
 let quizArea = document.getElementById('quiz-area');
 let resultArea = document.getElementById('result-area');
-let correctAnswers = document.getElementById('correct-answers');
+let correctAnswers = document.getElementById('correct-answer');
 let correctAnswersArea = document.getElementById('correct-answers-area');
 
 let counter = 0;
@@ -82,13 +82,14 @@ function displayResult() {
  * to the user.  
  */
 function displayCorrectAnswers() {
+    resultArea.classList.add('hidden');
     correctAnswersArea.classList.remove('hidden');
     let correct = oysterQuestions.map((question) => {
         return `
             <p><strong>${question.count}:</strong> ${question.question}</p>
-            <p>Correct Answer: ${question.correctAnswer}</p>
+            <p class='correct-answer'>Correct Answer: ${question.correctAnswer}</p>
         `;
-    })
+    }).join('')
 
     correctAnswers.innerHTML = correct;
 
