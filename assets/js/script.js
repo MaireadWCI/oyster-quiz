@@ -12,6 +12,7 @@ let questionCount = document.getElementById('counter');
 let counter = 0;
 let score = 0;
 let interval;
+let startTime;
 
 /**
  * Starts quiz.    
@@ -31,8 +32,10 @@ function displayQuestion() {
     question.textContent = oysterQuestions[counter].question;
     answers.forEach(function (button, answer) {
         button.textContent = oysterQuestions[counter].answers[answer];
+        button.onClick = incrementScore;
     });
     showScore();
+    startTime = Date.now();
 }
 
 /**
@@ -65,8 +68,11 @@ for (let i = 0; i < answers.length; i++) {
  */
 function incrementScore() {
     let chosenAnswer = this.innerText;
+    let timeTaken = (Date.now()- startTime) / 1000;
+    let baseScore = 10;
+    let timeBonus = Math.max(0, 10 - Math.round(timeTaken));
     if (oysterQuestions[counter].correctAnswer === chosenAnswer) {
-        score++;
+        score += baseScore + timeBonus;
     }
     clearInterval(interval);
     nextQuestion();
