@@ -7,6 +7,7 @@ let quizArea = document.getElementById('quiz-area');
 let resultArea = document.getElementById('result-area');
 let correctAnswers = document.getElementById('correct-answer');
 let correctAnswersArea = document.getElementById('correct-answers-area');
+let questionCount = document.getElementById('counter');
 
 let counter = 0;
 let score = 0;
@@ -20,6 +21,7 @@ function startQuiz() {
     rulesArea.classList.add('hidden');
     displayQuestion();
     startTimer();
+    questionCounter();
 }
 
 /**
@@ -42,6 +44,7 @@ function nextQuestion() {
         displayQuestion();
         clearInterval(interval);
         startTimer();
+        questionCounter();
     } else {
         displayResult();
     }
@@ -81,6 +84,7 @@ function restartQuiz() {
     counter = 0;
     displayQuestion();
     startTimer();
+    questionCounter();
    
 }
 
@@ -126,5 +130,12 @@ function startTimer () {
             nextQuestion();
         }
     }, 1000);
+}
+
+/**
+ * Displays which question the user is on
+ */
+function questionCounter() {
+    questionCount.innerHTML = oysterQuestions[counter].count;
 }
 
