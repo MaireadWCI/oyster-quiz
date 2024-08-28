@@ -22,23 +22,24 @@
     <main>
         <!--Quiz rules area. Welcomes the user to the quiz, explains the rules and includes start quiz button-->
         <section id="rules-area">
+            <div id="welcome">
             <h1>Welcome</h1>
             <h2>This is a quiz all about oysters!</h2>
             <h1>Quiz Rules</h1>
-            <ol>
+            </div>
+            <ol id="rules">
                 <li>There are 15 questions in this quiz.</li>
                 <li>Every question has 3 options but only 1 is right.</li>
                 <li>You have 15 seconds to answer each question.</li>
                 <li>Once you pick an answer, the next question will show.</li>
                 <li>If you wish to restart the quiz click the logo.</li>
             </ol>
-            <p>Good Luck and have fun!</p>
-            <div>
+            <div class="center">
                 <button id="start-quiz" aria-label="Starts quiz">Start Quiz</button>
             </div>
         </section>
         <!--Quiz area, displays questions and possible answers to the user-->
-        <section id="quiz-area">
+        <section id="quiz-area" class="hidden">
             <div id="question-section">
                 <div id="question"></div>
             </div>
