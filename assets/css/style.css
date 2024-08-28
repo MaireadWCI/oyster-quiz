@@ -166,6 +166,15 @@ body {
 
 }
 
+/* Score and timer  */
+
+#score-timer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 125%;
+    margin-top: 10px;
+}
+
 /* Footer */
 
 footer {

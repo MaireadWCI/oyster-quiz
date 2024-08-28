@@ -77,6 +77,7 @@ function restartQuiz() {
     score = 0;
     counter = 0;
     displayQuestion();
+    startTimer();
    
 }
 
@@ -107,6 +108,9 @@ function displayCorrectAnswers() {
 
 }
 
+/**
+ * Sets a 15 second coundown timer for each question. 
+ */
 function startTimer () {
 var count = 15;
 var interval = setInterval(function(){
