@@ -18,6 +18,7 @@ function startQuiz() {
     quizArea.classList.remove('hidden');
     rulesArea.classList.add('hidden');
     displayQuestion();
+    startTimer();
 }
 
 /**
@@ -38,6 +39,7 @@ function nextQuestion() {
     counter++;
     if (counter < oysterQuestions.length) {
         displayQuestion();
+        startTimer();
     } else {
         displayResult();
     }
@@ -105,4 +107,15 @@ function displayCorrectAnswers() {
 
 }
 
+function startTimer () {
+var count = 15;
+var interval = setInterval(function(){
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    nextQuestion();
+  }
+}, 1000);
+}
 
