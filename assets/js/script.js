@@ -2,6 +2,7 @@ let question = document.getElementById('question');
 let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
 let result = document.getElementById('result');
+let rulesArea = document.getElementById('rules-area');
 let quizArea = document.getElementById('quiz-area');
 let resultArea = document.getElementById('result-area');
 let correctAnswers = document.getElementById('correct-answer');
@@ -9,6 +10,15 @@ let correctAnswersArea = document.getElementById('correct-answers-area');
 
 let counter = 0;
 let score = 0;
+
+/**
+ * Starts quiz.    
+ */
+function startQuiz() {
+    quizArea.classList.remove('hidden');
+    rulesArea.classList.add('hidden');
+    displayQuestion();
+}
 
 /**
  * Displays question and answers.   
@@ -95,4 +105,4 @@ function displayCorrectAnswers() {
 
 }
 
-displayQuestion();
+
