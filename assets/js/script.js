@@ -10,6 +10,7 @@ let correctAnswersArea = document.getElementById('correct-answers-area');
 
 let counter = 0;
 let score = 0;
+let interval;
 
 /**
  * Starts quiz.    
@@ -39,6 +40,7 @@ function nextQuestion() {
     counter++;
     if (counter < oysterQuestions.length) {
         displayQuestion();
+        clearInterval(interval);
         startTimer();
     } else {
         displayResult();
@@ -63,6 +65,7 @@ function incrementScore() {
     if (oysterQuestions[counter].correctAnswer === chosenAnswer) {
         score++;
     }
+    clearInterval(interval);
     nextQuestion();
 }
 
@@ -88,6 +91,7 @@ function displayResult() {
     resultArea.classList.remove('hidden');
     quizArea.classList.add('hidden');
     result.innerHTML = score;
+    clearInterval(interval);
 }
 
 /**
@@ -112,14 +116,15 @@ function displayCorrectAnswers() {
  * Sets a 15 second coundown timer for each question. 
  */
 function startTimer () {
-var count = 15;
-var interval = setInterval(function(){
-  document.getElementById('count').innerHTML=count;
-  count--;
-  if (count === 0){
     clearInterval(interval);
-    nextQuestion();
-  }
-}, 1000);
+    var count = 15;
+    interval = setInterval(function(){
+        document.getElementById('count').innerHTML=count;
+        count--;
+        if (count === 0){
+            clearInterval(interval);
+            nextQuestion();
+        }
+    }, 1000);
 }
 
