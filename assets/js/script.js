@@ -8,6 +8,7 @@ let resultArea = document.getElementById('result-area');
 let correctAnswers = document.getElementById('correct-answer');
 let correctAnswersArea = document.getElementById('correct-answers-area');
 let questionCount = document.getElementById('counter');
+let timer = document.getElementById('count');
 
 let counter = 0;
 let score = 0;
@@ -64,13 +65,15 @@ for (let i = 0; i < answers.length; i++) {
     answers[i].addEventListener("click", incrementScore);
 }
 /**
- * Increments score if user chooses correct answer.   
+ * Increments score if user chooses correct answer.
+ * Checks how long user took to answer question
+ * adds bonus points for quicker answer.    
  */
 function incrementScore() {
     let chosenAnswer = this.innerText;
-    let timeTaken = (Date.now()- startTime) / 1000;
+    let timeTaken = (Date.now() - startTime) / 1000;
     let baseScore = 10;
-    let timeBonus = Math.max(0, 10 - Math.round(timeTaken));
+    let timeBonus = 15 - Math.round(timeTaken);
     if (oysterQuestions[counter].correctAnswer === chosenAnswer) {
         score += baseScore + timeBonus;
     }
@@ -129,8 +132,16 @@ function startTimer () {
     clearInterval(interval);
     var count = 15;
     interval = setInterval(function(){
-        document.getElementById('count').innerHTML=count;
+        timer.innerHTML=count;
+        
+        if (count <= 5) {
+            timer.classList.add('red');
+        }else{
+            timer.classList.remove('red');
+        }
+        
         count--;
+
         if (count === 0){
             clearInterval(interval);
             nextQuestion();
