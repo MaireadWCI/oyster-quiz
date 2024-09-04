@@ -9,11 +9,13 @@ let correctAnswers = document.getElementById('correct-answer');
 let correctAnswersArea = document.getElementById('correct-answers-area');
 let questionCount = document.getElementById('counter');
 let timer = document.getElementById('count');
+let usersScoreElement = document.getElementById('users-score');
 
 let counter = 0;
 let score = 0;
 let interval;
 let startTime;
+
 
 /**
  * Starts quiz.    
@@ -33,7 +35,6 @@ function displayQuestion() {
     question.textContent = oysterQuestions[counter].question;
     answers.forEach(function (button, answer) {
         button.textContent = oysterQuestions[counter].answers[answer];
-        button.onClick = incrementScore;
     });
     showScore();
     startTime = Date.now();
@@ -59,6 +60,7 @@ function nextQuestion() {
  */
 function showScore() {
     scores.innerHTML = score;
+    localStorage.setItem("usersScore", score);
 }
 
 for (let i = 0; i < answers.length; i++) {
@@ -94,7 +96,6 @@ function restartQuiz() {
     displayQuestion();
     startTimer();
     questionCounter();
-   
 }
 
 /**
@@ -105,6 +106,7 @@ function displayResult() {
     quizArea.classList.add('hidden');
     result.innerHTML = score;
     clearInterval(interval);
+    trackScore();
 }
 
 /**
@@ -122,7 +124,6 @@ function displayCorrectAnswers() {
     }).join('')
 
     correctAnswers.innerHTML = correct;
-
 }
 
 /**
@@ -156,3 +157,15 @@ function questionCounter() {
     questionCount.innerHTML = oysterQuestions[counter].count;
 }
 
+/**
+ * Sets highscore using localstorage
+ */
+function displayScore() {
+    let usersHighScore = localStorage.getItem('userScore'); 
+    if (usersHighScore) {
+        usersScoreElement.innerHTML = usersHighScore;
+    } else {
+        usersScoreElement.innerHTML = 0;
+    }
+    
+}
