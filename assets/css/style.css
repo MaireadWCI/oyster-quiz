@@ -228,3 +228,20 @@ footer p {
     text-decoration: none;
 }
 
+/* Media queries  */
+
+/* For screen size 520px and down */
+
+@media screen and (max-width: 520px) {
+
+    #quiz-area, #rules-area, #result-area {
+        width: 350px; 
+    }
+
+    header {
+        width: 300px;
+    }
+}
+
+
+
