@@ -162,7 +162,7 @@ body {
     color: whitesmoke;
     width: 1000px;
     padding: 20px;
-    margin: 20px auto 0;
+    margin: 20px auto 10px;
     border-radius: 15px;
     text-align: center;
     font-size: 100%;
@@ -200,13 +200,12 @@ body {
 
 footer {
     background-color: rgba(255, 255, 255, 0.6);
-    width: 350px;
     height: 50px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    margin-top: auto;
     align-items: center;
+    margin-top: auto;
 }
 
 footer p {
@@ -240,7 +239,6 @@ footer p {
     #correct-answers-area {
         width: 600px;
     }
-
 }
 
 /* For screen size 520px and down */
