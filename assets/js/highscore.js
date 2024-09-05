@@ -2,6 +2,8 @@ let usersScoreElement = document.getElementById('users-score');
 let usersHighScore = localStorage.getItem('usersScore');
 let highscoreDisplay = document.getElementById('highscore-display');
 let storedHighscore = localStorage.getItem('userHighscore');
+let highscoreArea = document.getElementById('highscore-area');
+let saveScoreArea = document.getElementById('save-score-area');
 
 /**
  * Sets highscore using localstorage
@@ -31,6 +33,8 @@ function saveUsersScore() {
         highScores.push(userData);
         localStorage.setItem('highScores', JSON.stringify(highScores));
         displayHighScore();
+        highscoreArea.classList.remove('hidden')
+        saveScoreArea.classList.add('hidden');
 
     }else {
         alert('Please enter a username!');
@@ -47,7 +51,7 @@ function displayHighScore() {
         highScoresArray.sort((a,b) => ( b.score - a.score ))
         highscoreDisplay.innerHTML = '';
         highscoreDisplay.innerHTML = highScoresArray
-            .map(userData => `<p>Name: ${userData.name}, Score: ${userData.score}</p>`)
+            .map(userData => `<p>Name: ${userData.name} - Score: ${userData.score}</p>`)
             .join('');
     } else {
         highscoreDisplay.innerHTML = 'No highscores saved yet.';

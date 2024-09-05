@@ -41,7 +41,7 @@ body {
 
 /* Rules area */
 
-#rules-area, #save-score-area{
+#rules-area, #save-score-area, #highscore-area{
     background-color: rgba(0, 84, 147, 0.6);
     width: 500px;
     padding: 20px;
@@ -115,7 +115,7 @@ body {
     gap: 1em;  
 }
 
-.answers, #restart-quiz, #highscore-link {
+.answers, #restart-quiz, #highscore-link, #save-score {
     width: 300px;
     height: 50px;
     background-color: whitesmoke;
@@ -219,16 +219,32 @@ footer p {
     color: rgb(0, 84, 147);
 }
 
-/* Highscore */
+/* Highscore area */
 
 #highscore-link {
-    margin-top: 5px; 
-    color: #666; 
+    margin-top: 5px;  
 }
 
 #highscore-link a {
     text-decoration: none;
+    color: #666;
 }
+
+ #username {
+    text-align: center;
+    width: 150px;
+}
+
+#form-area{
+    text-align: center;
+}
+
+#highscore-display, #highscore-area{
+    text-align: center;
+    font-size: 150%;
+}
+
+
 
 /* Media queries  */
 

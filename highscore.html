@@ -27,10 +27,14 @@
         <h2>Please save your score!</h2>
         <h1>Enter your username:</h1>
     </div>
-    <label for="username">Name: </label>
-    <input type="text" id="username" placeholder="Enter your name">
-    <p id="users-score"></p>
-    <button onclick="saveUsersScore()">Save Score</button> 
+    <div id="form-area">
+        <label for="username">Name: </label>
+        <input type="text" id="username" placeholder="Enter your name">
+        <p id="users-score"></p>
+        <button onclick="saveUsersScore()" id="save-score">Save Score</button>
+    </div>
+</section> 
+<section id="highscore-area" class="hidden">
     <h2>Highscores:</h2>
     <div id="highscore-display"></div>
 </section>
