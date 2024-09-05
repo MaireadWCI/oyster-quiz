@@ -41,7 +41,7 @@ body {
 
 /* Rules area */
 
-#rules-area{
+#rules-area, #save-score-area{
     background-color: rgba(0, 84, 147, 0.6);
     width: 500px;
     padding: 20px;
@@ -251,8 +251,11 @@ footer p {
 
     header {
         width: 300px;
+        margin-left: 50px;
     }
 }
+
+
 
 
 
