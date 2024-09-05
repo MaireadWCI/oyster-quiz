@@ -21,12 +21,17 @@ function displayScore() {
 function saveUsersScore() {
     let userName = document.getElementById('username').value;
     if (userName && usersHighScore){
+        let highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+
         let userData = {
             name: userName,
             score: usersHighScore
         };
 
-        localStorage.setItem('userHighscore', JSON.stringify(userData));
+        highScores.push(userData);
+        localStorage.setItem('highScores', JSON.stringify(highScores));
+        displayHighScore();
+
     }else {
         alert('Please enter a username!');
     }
@@ -36,16 +41,21 @@ function saveUsersScore() {
  * displays highscore list
  */
 function displayHighScore() {
-    if (storedHighscore) {
-        const highscoreData = JSON.parse(storedHighscore);
-        highscoreDisplay.innerHTML = `Name: ${highscoreData.name}, Score: ${highscoreData.score}`;
+    let storedHighScores = localStorage.getItem('highScores');
+    if (storedHighScores) {
+        let highScoresArray = JSON.parse(storedHighScores);
+        highScoresArray.sort((a,b) => ( b.score - a.score ))
+        highscoreDisplay.innerHTML = '';
+        highscoreDisplay.innerHTML = highScoresArray
+            .map(userData => `<p>Name: ${userData.name}, Score: ${userData.score}</p>`)
+            .join('');
     } else {
-        highscoreDisplay.innerHTML = 'No highscore saved yet.';
+        highscoreDisplay.innerHTML = 'No highscores saved yet.';
     }
 }
 
-displayScore()
-displayHighScore()
+displayScore();
+displayHighScore();
 
 
 
