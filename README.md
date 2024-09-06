@@ -48,10 +48,19 @@ The result area gives information to the user such as:
 * Informing them they have finished the quiz.
 * Displaying the users final score.
 * A try again button, which restarts the quiz. 
-* The highscore button, which takes the user to the high score area.
+* The highscore button, which takes the user to the highscore area.
 * The show correct answers button which gives a list of all quiz questions and their corresponding answer. 
 
-<img src="./assets/images/readme/result-area.png" img> 
+<img src="./assets/images/readme/result-area.png" img>
+
+## Save score area
+
+The save score area is comprised of:
+* An input where the user can enter their username.
+* The users score dynamically  generated.
+* The save score button which will direct the user to the highscore list. 
+
+<img src="./assets/images/readme/save-score-area.png" img>
 
 
 
