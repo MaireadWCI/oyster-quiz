@@ -53,6 +53,10 @@ The result area gives information to the user such as:
 
 <img src="./assets/images/readme/result-area.png" img>
 
+## Correct answers
+
+<img src="./assets/images/readme/correct-answes.png" img>
+
 ## Save score area
 
 The save score area is comprised of:
