@@ -55,7 +55,9 @@ The result area gives information to the user such as:
 
 ## Correct answers
 
-<img src="./assets/images/readme/correct-answes.png" img>
+* The corrrect answer for the corresponding question is highlighted in green. 
+
+<img src="./assets/images/readme/correct-answers.png" img>
 
 ## Save score area
 
