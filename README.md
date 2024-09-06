@@ -1,5 +1,10 @@
 # Oyster Quiz
 
+## Colour Scheme
+<p>A combination of colours were chosen to represent the feel of the ocean and remain on theme with the brands identity.</p>
+
+![Color scheme](./assets/images/readme/color-theme.png)
+
 ## Wireframes
 <p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of the layout of this Quiz. Wireframes where produced for each area of the quiz in desktop and mobile views</p>
 
