@@ -62,6 +62,12 @@ The save score area is comprised of:
 
 <img src="./assets/images/readme/save-score-area.png" img>
 
+## Highscore area
+
+* The highscore area displays a scrollable list of all users scores ranked highest to lowest. 
+
+<img src="./assets/images/readme/highscore-area.png" img>
+
 
 
 
