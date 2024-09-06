@@ -1,4 +1,26 @@
+# Oyster Quiz
+
+## Wireframes
+<p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of the layout of this Quiz. Wireframes where produced for each area of the quiz in desktop and mobile views</p>
+
+### Rules area 
+ ![Wireframe Image](./assets/images/readme/wireframe-rules.png)
+
+### Quiz area
+ ![Wireframe Image](./assets/images/readme/wireframe-quiz.png)
+
+### Result area
+ ![Wireframe Image](./assets/images/readme/wirefeame-result.png)
+ 
+
+
+
+
+
+
+
 # credits
+
 ## content
 https://www.funtrivia.com/trivia-quiz/Animals/The-Oyster-Great-Mother-of-Pearls-209801.html 
 https://kupidonia.com/quiz-answers/quiz-oyster 
