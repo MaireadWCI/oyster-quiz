@@ -42,6 +42,19 @@ The quiz rules area welcomes the user to the quiz, goes through some rules for t
 
 <img src="./assets/images/readme/quiz-area.png" img> 
 
+## Result area 
+
+The result area gives information to the user such as:
+* Informing them they have finished the quiz.
+* Displaying the users final score.
+* A try again button, which restarts the quiz. 
+* The highscore button, which takes the user to the high score area.
+* The show correct answers button which gives a list of all quiz questions and their corresponding answer. 
+
+<img src="./assets/images/readme/result-area.png" img> 
+
+
+
 
 
 
