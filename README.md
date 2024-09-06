@@ -1,5 +1,15 @@
 # Oyster Quiz
 
+# Users Experience Design
+
+## User Stories
+As a user of this quiz:
+* I would like to gain more knowledge about oysters.
+* I would like to play a quiz that is easy to navigate.
+* I would like to play against the clock.
+* I would like visual feedback throughout the quiz, ie. my score and time left. 
+* I would like to save my score and see how it compares with others.
+
 ## Colour Scheme
 <p>A combination of colours were chosen to represent the feel of the ocean and remain on theme with the brands identity.</p>
 
@@ -8,30 +18,30 @@
 ## Wireframes
 <p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of the layout of this Quiz. Wireframes where produced for each area of the quiz in desktop and mobile views</p>
 
-### Rules area 
+### Rules Area 
  ![Wireframe Image](./assets/images/readme/wireframe-rules.png)
 
-### Quiz area
+### Quiz Area
  ![Wireframe Image](./assets/images/readme/wireframe-quiz.png)
 
-### Result area
+### Result Area
  ![Wireframe Image](./assets/images/readme/wirefeame-result.png)
  
 # Features 
 
-## Header and logo
+## Header And Logo
 
 Featured across the site, the header contains a clickable logo, that will return the user to the home page.
 
 <img src="./assets/images/readme/header.png" img> 
 
-## Quiz rules area
+## Quiz Rules Area
 
 The quiz rules area welcomes the user to the quiz, goes through some rules for the quiz and contains the start quiz button. 
 
 <img src="./assets/images/readme/rules-area.png" img> 
 
-## Quiz area
+## Quiz Area
 
 * The quiz area contains a count for which question the user is on.
 *  A question area is present and the choice of Three answer buttons is also available. 
@@ -42,7 +52,7 @@ The quiz rules area welcomes the user to the quiz, goes through some rules for t
 
 <img src="./assets/images/readme/quiz-area.png" img> 
 
-## Result area 
+## Result Area 
 
 The result area gives information to the user such as:
 * Informing them they have finished the quiz.
@@ -53,13 +63,13 @@ The result area gives information to the user such as:
 
 <img src="./assets/images/readme/result-area.png" img>
 
-## Correct answers
+## Correct Answers
 
 * The corrrect answer for the corresponding question is highlighted in green. 
 
 <img src="./assets/images/readme/correct-answers.png" img>
 
-## Save score area
+## Save Score Area
 
 The save score area is comprised of:
 * An input where the user can enter their username.
@@ -68,7 +78,7 @@ The save score area is comprised of:
 
 <img src="./assets/images/readme/save-score-area.png" img>
 
-## Highscore area
+## Highscore Area
 
 * The highscore area displays a scrollable list of all users scores ranked highest to lowest. 
 
@@ -81,7 +91,7 @@ The save score area is comprised of:
 
 <img src="./assets/images/readme/footer.png" img>
 
-# Future features
+# Future Features
  
 * The use of an API would have been nice to generate the questions, this would also allow for the order of the questions to be changed and randomly generated. 
 * The ability to add social sharing would be advantageous.
@@ -89,7 +99,7 @@ The save score area is comprised of:
 * It would be nice to have the users answer shown against the correct answer for any questions that where answered incorrectly. 
 * Being able to skip a question and come back to it later would be a nice feature to add. 
 
-
+ 
 
 # credits
 
