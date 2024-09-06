@@ -74,9 +74,20 @@ The save score area is comprised of:
 
 <img src="./assets/images/readme/highscore-area.png" img>
 
+## Footer 
 
+* The footer can be seen throughout the quiz game and is positioned across the bottom of the screen. 
+* It contains a link to my GitHub. 
 
+<img src="./assets/images/readme/footer.png" img>
 
+# Future features
+ 
+* The use of an API would have been nice to generate the questions, this would also allow for the order of the questions to be changed and randomly generated. 
+* The ability to add social sharing would be advantageous.
+* A visual progress bar to aid in informing the user of their progress. 
+* It would be nice to have the users answer shown against the correct answer for any questions that where answered incorrectly. 
+* Being able to skip a question and come back to it later would be a nice feature to add. 
 
 
 
