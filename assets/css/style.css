@@ -233,6 +233,7 @@ footer p {
  #username {
     text-align: center;
     width: 150px;
+    margin-bottom: 15px;
 }
 
 #form-area{
@@ -241,10 +242,12 @@ footer p {
 
 #highscore-display, #highscore-area{
     text-align: center;
-    font-size: 150%;
+    font-size: 115%;
 }
 
-
+#highscore-area {
+    overflow: scroll;
+}
 
 /* Media queries  */
 
@@ -261,17 +264,23 @@ footer p {
 
 @media screen and (max-width: 520px) {
 
-    #quiz-area, #rules-area, #result-area {
+    #quiz-area, #rules-area, #result-area, #save-score-area, #highscore-area {
         width: 350px; 
     }
 
     header {
-        width: 300px;
-        margin-left: 50px;
+        width: 350px;
     }
 }
 
+/* For screen size 380px and down */
 
+@media screen and (max-width: 380px) {
+
+    header {
+        margin-left: 25px;
+    }
+}
 
 
 
