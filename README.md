@@ -17,7 +17,13 @@
 ### Result area
  ![Wireframe Image](./assets/images/readme/wirefeame-result.png)
  
+# Features 
 
+## Header and logo
+
+Featured across the site, the header contains a clickable logo, that will return the user to the home page.
+
+<img src="./assets/images/header.png" img> 
 
 
 
