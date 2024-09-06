@@ -23,14 +23,24 @@
 
 Featured across the site, the header contains a clickable logo, that will return the user to the home page.
 
-<img src="./assets/images/header.png" img> 
+<img src="./assets/images/readme/header.png" img> 
 
 ## Quiz rules area
 
 The quiz rules area welcomes the user to the quiz, goes through some rules for the quiz and contains the start quiz button. 
 
-<img src="./assets/images/rules-area.png" img> 
+<img src="./assets/images/readme/rules-area.png" img> 
 
+## Quiz area
+
+* The quiz area contains a count for which question the user is on.
+*  A question area is present and the choice of Three answer buttons is also available. 
+* Users score is tracked in the bottom left of this area. The users score will be 10 points for a correct answer plus a time bonus for answering faster.
+* A countdown timer is present for each question, once Five seconds are left this timer will turn red. 
+* When the user selects an answer the next question will show. 
+* If the countdown timer runs out the next question will show. 
+
+<img src="./assets/images/readme/quiz-area.png" img> 
 
 
 
