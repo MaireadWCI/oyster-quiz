@@ -25,6 +25,12 @@ Featured across the site, the header contains a clickable logo, that will return
 
 <img src="./assets/images/header.png" img> 
 
+## Quiz rules area
+
+The quiz rules area welcomes the user to the quiz, goes through some rules for the quiz and contains the start quiz button. 
+
+<img src="./assets/images/rules-area.png" img> 
+
 
 
 
