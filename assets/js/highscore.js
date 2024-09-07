@@ -33,7 +33,7 @@ function saveUsersScore() {
         highScores.push(userData);
         localStorage.setItem('highScores', JSON.stringify(highScores));
         displayHighScore();
-        highscoreArea.classList.remove('hidden')
+        highscoreArea.classList.remove('hidden');
         saveScoreArea.classList.add('hidden');
 
     }else {
@@ -60,11 +60,3 @@ function displayHighScore() {
 
 displayScore();
 displayHighScore();
-
-
-
-
-
-
-
-displayScore();

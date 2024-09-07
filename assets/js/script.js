@@ -73,7 +73,7 @@ function incrementScore() {
     let chosenAnswer = this.innerText;
     let timeTaken = (Date.now() - startTime) / 1000;
     let baseScore = 10;
-    let timeBonus = 15 - Math.round(timeTaken);
+    let timeBonus = Math.max(0, 15 - Math.round(timeTaken));
     if (oysterQuestions[counter].correctAnswer === chosenAnswer) {
         score += baseScore + timeBonus;
     }
