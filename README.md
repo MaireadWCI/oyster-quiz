@@ -34,7 +34,7 @@ As a user of this quiz:
 * HTML
 * CSS
 * JavaScript
- 
+
 ## Frameworks, Libraries and Programs Used
 <ul>
 <li><a href="https://fontawesome.com/" rel="nofollow">Font Awesome</a></li>
@@ -198,6 +198,16 @@ Testing of the functionality of the deployed site can be seen in the following t
 ### Lighthouse Testing
 
 <img src="assets/images/readme/lighthouse.png">
+
+# Deployment 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1  Go to your repository on GitHub.
+2. Click on the settings tab.
+3. Under the code and automation section, choose pages.
+5. Set branch as main and click save.
+6. A link to the project will be seen at the top of the page.
+
+The live link can be accessed here: [Oyster Quiz](https://maireadwci.github.io/oyster-quiz/index.html)
 
 # credits
 
