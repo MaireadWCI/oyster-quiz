@@ -128,7 +128,14 @@ Testing of the functionality of the deployed site can be seen in the following t
 | Timer runout | When the timer runs out the next question will show and no score will be given | let the timer runout notice the question change and score remain the same | Pass
 | Timer - turn red | Timer will turn red when there is 5 seconds left to answer | Allow the timer to decrement to 5 seconds notice the colour change| Pass 
 
+## Result area
 
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|Score| Players score is displayed correctly corresponding to the score achieved | Test different scores and checked with the score output | Pass
+|Try again button| Once clicked the try again button will restart the quiz| Click the try again button| Pass
+|Highscore button| Once clicked the highscore button will the the user to the save score area| Click the highscore button| Pass
+|Show Correct Answers| Once clicked the show correct answers will display  the correct answers for the quiz| Click the show correct answers | Pass
 
 # credits
 
