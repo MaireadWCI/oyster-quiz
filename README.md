@@ -26,7 +26,37 @@ As a user of this quiz:
 
 ### Result Area
  ![Wireframe Image](./assets/images/readme/wirefeame-result.png)
+
+# Technologies Used
+
+## Languages
+
+* HTML
+* CSS
+* JavaScript
  
+## Frameworks, Libraries and Programs Used
+<ul>
+<li><a href="https://fontawesome.com/" rel="nofollow">Font Awesome</a></li>
+<p>This was used to get decorative icons. </p>
+<li><a href="https://balsamiq.com/" rel="nofollow" alt="balsamiq">Balsamiq</a></li>
+<p>This was used to create wireframes for the project.</p>
+<li><a href="https://github.com/" alt="github">GitHub</a></li>
+<p>Github was used to store and share the project. </p>
+<li><a href="https://gitpod.io/" rel="nofollow" alt="gitpod">GitPod</a></li>
+<p>IDE for development.</p>
+<li><a href="http://ami.responsivedesign.is/#" rel="nofollow" alt="am-i-responsive">Am I Responsive?</a></li>
+<p>Used to test the sites responsiveness on differnt devices.</p>
+<li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow" alt="chrome-dev-tools">Chrome DevTools</a></li>
+<p>Used throughout the project to review code and test reponsiveness.</p>
+<li><a href="https://validator.w3.org/" rel="nofollow" alt="html validator">W3C Markup Validator</a></li>
+<p>This was used to validate the html in the website.</p>
+<li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow" alt="CSS validator">W3C CSS Validator</a></li>
+<p>This was used to validate the CSS in the website. </p>
+<li><a href="https://jshint.com/" rel="nofollow" alt="JavaScript validator">W3C CSS Validator</a></li>
+<p>This was used to validate the JavaScript in this quiz. </p>
+</ul>
+
 # Features 
 
 ## Header And Logo
