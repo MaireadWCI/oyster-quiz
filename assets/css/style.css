@@ -81,6 +81,11 @@ main {
     color: #666;
 }
 
+#start-quiz:hover {
+    background-color: #666;
+    color: whitesmoke;
+}
+
 /* Quiz area */
 
 #quiz-area {
@@ -128,6 +133,11 @@ main {
     color: #666;
 }
 
+.answers:hover, #restart-quiz:hover, #save-score:hover {
+    background-color: #666;
+    color: whitesmoke;
+}
+
 /* Result area  */
 
 #result-area {
@@ -149,6 +159,11 @@ main {
     font-size: 80%;
     color: #666;
     margin-top: 5px;
+}
+
+#correct-answers:hover {
+    background-color: #666;
+    color: whitesmoke;
 }
 
 /* Correct answer */
@@ -236,6 +251,11 @@ footer p {
     border-radius: 15px;
     font-size: 150%;
     padding: 0 75px; 
+}
+
+#highscore-link:hover {
+    background-color: #666;
+    color: whitesmoke;
 }
 
 .highscore {
