@@ -145,6 +145,13 @@ Testing of the functionality of the deployed site can be seen in the following t
 | Save Score  - empty input| Once clicked with no username entered the save score button will alert the user that a username is needed| Click the save score button with no username selected | Pass
 | Save score| Once clicked the users score will be placed into a list of highscores (in ascending order) and this will be displayed| Click the save score button| Pass
 
+## Footer
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| GitHub link | When clicked the GitHub icon will open a new window to my GitHub repository | Click the GitHub icon| pass
+
+
 # credits
 
 ## content
