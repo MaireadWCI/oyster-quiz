@@ -109,6 +109,12 @@ Testing of the functionality of the deployed site can be seen in the following t
 |--|--|--|--|
 | Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | pass
  
+## Rules area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| Start quiz button| Once clicked the start quiz button will direct the user to the quiz area, the count down timer will start and wait for the user to answer the first question | Click the start quiz button| pass
+
 
 # credits
 
