@@ -107,13 +107,13 @@ Testing of the functionality of the deployed site can be seen in the following t
 
 |Feature  | Expect  | Action | Result |
 |--|--|--|--|
-| Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | pass
+| Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | Pass
  
 ## Rules area
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
-| Start quiz button| Once clicked the start quiz button will direct the user to the quiz area, the count down timer will start and wait for the user to answer the first question | Click the start quiz button| pass
+| Start quiz button| Once clicked the start quiz button will direct the user to the quiz area, the count down timer will start and wait for the user to answer the first question | Click the start quiz button| Pass
 
 ## Quiz area
 
@@ -136,6 +136,14 @@ Testing of the functionality of the deployed site can be seen in the following t
 |Try again button| Once clicked the try again button will restart the quiz| Click the try again button| Pass
 |Highscore button| Once clicked the highscore button will the the user to the save score area| Click the highscore button| Pass
 |Show Correct Answers| Once clicked the show correct answers will display  the correct answers for the quiz| Click the show correct answers | Pass
+
+## Save Score Area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|Username input| The user can enter a username| Enter username | Pass
+| Save Score  - empty input| Once clicked with no username entered the save score button will alert the user that a username is needed| Click the save score button with no username selected | Pass
+| Save score| Once clicked the users score will be placed into a list of highscores (in ascending order) and this will be displayed| Click the save score button| Pass
 
 # credits
 
