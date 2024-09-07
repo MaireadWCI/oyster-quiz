@@ -16,7 +16,7 @@ As a user of this quiz:
 ![Color scheme](./assets/images/readme/color-theme.png)
 
 ## Wireframes
-<p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of the layout of this Quiz. Wireframes where produced for each area of the quiz in desktop and mobile views</p>
+<p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of the layout of this Quiz. Wireframes where produced for each area of the quiz in desktop and mobile views.</p>
 
 ### Rules Area 
  ![Wireframe Image](./assets/images/readme/wireframe-rules.png)
@@ -99,6 +99,15 @@ The save score area is comprised of:
 * It would be nice to have the users answer shown against the correct answer for any questions that where answered incorrectly. 
 * Being able to skip a question and come back to it later would be a nice feature to add. 
 
+# Testing
+
+Testing of the functionality of the deployed site can be seen in the following tables. Each feature of the quiz has been tested with what is expected, what is the expected action to receive the outcome and the result, which is pass or fail. 
+
+## Header and Logo
+
+|Feature  | Expect  | Action | Result |
+|--|--|--|--|
+| Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | pass
  
 
 # credits
