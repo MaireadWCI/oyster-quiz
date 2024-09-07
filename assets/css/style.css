@@ -119,7 +119,7 @@ main {
     gap: 1em;  
 }
 
-.answers, #restart-quiz, #highscore-link, #save-score {
+.answers, #restart-quiz, #save-score {
     width: 300px;
     height: 50px;
     background-color: whitesmoke;
@@ -227,12 +227,19 @@ footer p {
 /* Highscore area */
 
 #highscore-link {
-    margin-top: 5px;  
-}
-
-#highscore-link a {
+    margin-top: 5px;
     text-decoration: none;
     color: #666;
+    width: 300px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 150%;
+    padding: 0 75px; 
+}
+
+.highscore {
+    margin-top: 5px;
 }
 
  #username {
@@ -280,11 +287,13 @@ footer p {
 
 /* For screen size 380px and down */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
 
     header {
         margin-left: 25px;
     }
+
+    
 }
 
 

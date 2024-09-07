@@ -42,8 +42,8 @@
             </div>
         </section>
         <!--Quiz area, displays questions and possible answers to the user-->
-        <section id="quiz-area" class="hidden">
-            <h2></h2>
+    <section>
+        <div id="quiz-area" class="hidden">
             <div id="counter"></div>
             <div id="question-section">
                 <div id="question"></div>
@@ -59,7 +59,8 @@
                 <p id="scores">Score:<span id="score">0</span></p>
                 <p>Time left:<span id="count"></span></p>
             </div>
-        </section>
+        </div>
+    </section>
         <!--Result area, lets the user know there final score and shows a restart quiz button -->
         <section id="result-area" class="hidden">
             <h3>Well done! You have completed the quiz.</h3>
@@ -67,15 +68,16 @@
             <div>
                 <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts quiz">Try again!</button>
             </div>
-            <button id="highscore-link">
-                <a href="highscore.html" onclick="displayScore()">Highscore</a>
-            </button>
+            <div class="highscore">
+                <a id="highscore-link" href="highscore.html" onclick="displayScore()">Highscore</a>
+            </div>
             <div>
                 <button onclick="displayCorrectAnswers()" id="correct-answers" aria-label="Shows the user the correct answers to the questions">Show Correct Answers</button>
             </div>
         </section>
         <!--Correct answers area shows the user the correct answers to the quiz -->
         <section id="correct-answers-area" class="hidden">
+            <h2>Correct Answers:</h2>
             <div id="correct-answer"></div>
         </section>
     </main>
