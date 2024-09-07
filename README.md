@@ -151,6 +151,19 @@ Testing of the functionality of the deployed site can be seen in the following t
 |--|--|--|--|
 | GitHub link | When clicked the GitHub icon will open a new window to my GitHub repository | Click the GitHub icon| pass
 
+## Validator Testing
+
+### HTML
+
+[Nu Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaireadwci.github.io%2Foyster-quiz%2Findex.html)
+
+<img src="assets/images/readme/html-validator.png">
+
+### CSS
+
+[W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmaireadwci.github.io%2Foyster-quiz%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+<img src="assets/images/readme-images/W3C-validator.png">
 
 # credits
 
