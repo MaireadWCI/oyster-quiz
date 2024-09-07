@@ -48,7 +48,7 @@ function displayHighScore() {
     let storedHighScores = localStorage.getItem('highScores');
     if (storedHighScores) {
         let highScoresArray = JSON.parse(storedHighScores);
-        highScoresArray.sort((a,b) => ( b.score - a.score ))
+        highScoresArray.sort((a,b) => ( b.score - a.score ));
         highscoreDisplay.innerHTML = '';
         highscoreDisplay.innerHTML = highScoresArray
             .map(userData => `<p>Name: ${userData.name} - Score: ${userData.score}</p>`)

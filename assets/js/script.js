@@ -119,7 +119,7 @@ function displayCorrectAnswers() {
             <p><strong>${question.count}:</strong> ${question.question}</p>
             <p class='correct-answer'>Correct Answer: ${question.correctAnswer}</p>
         `;
-    }).join('')
+    }).join('');
 
     correctAnswers.innerHTML = correct;
 }

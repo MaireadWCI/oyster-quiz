@@ -199,9 +199,10 @@ Testing of the functionality of the deployed site can be seen in the following t
 
 <img src="assets/images/readme/lighthouse.png">
 
-# Deployment 
+# Deployment
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-1  Go to your repository on GitHub.
+1.  Go to your repository on GitHub.
 2. Click on the settings tab.
 3. Under the code and automation section, choose pages.
 5. Set branch as main and click save.
