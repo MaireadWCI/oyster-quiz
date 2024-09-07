@@ -115,6 +115,20 @@ Testing of the functionality of the deployed site can be seen in the following t
 |--|--|--|--|
 | Start quiz button| Once clicked the start quiz button will direct the user to the quiz area, the count down timer will start and wait for the user to answer the first question | Click the start quiz button| pass
 
+## Quiz area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| Question counter | The question the user is on will be displayed | Click an answer button, note the question number change| Pass
+| Question area | The question the user is on will change depending on user interaction | Click an answer button, note the question change | Pass
+| Answer buttons | Once an answer is clicked the next question will show | Click any of the answer buttons, note the change in question| Pass
+| Score | The score will increment with each correct answer and remain the same for an incorrect answer | Click the correct answer note the score given, click an incorrect answer note the score staying the same | Pass
+| Score - bonus points | The faster the user answers a question the higher their score(base 10 plus 15 for a correct answer and so on) | Click multiple answers, note the change in score| Fail
+| Timer | Timer will countdown from Fifteen for each question | Click an answer button to see the timer countdown for each new question| Pass
+| Timer runout | When the timer runs out the next question will show and no score will be given | let the timer runout notice the question change and score remain the same | Pass
+| Timer - turn red | Timer will turn red when there is 5 seconds left to answer | Allow the timer to decrement to 5 seconds notice the colour change| Pass 
+
+
 
 # credits
 
