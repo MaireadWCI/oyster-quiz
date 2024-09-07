@@ -163,7 +163,11 @@ Testing of the functionality of the deployed site can be seen in the following t
 
 [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmaireadwci.github.io%2Foyster-quiz%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-<img src="assets/images/readme-images/W3C-validator.png">
+<img src="assets/images/readme/W3C-validator.png.png">
+
+### Lighthouse Testing
+
+<img src="assets/images/readme/lighthouse.png">
 
 # credits
 
