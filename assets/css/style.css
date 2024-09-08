@@ -290,7 +290,7 @@ footer p {
 @media screen and (max-width: 1440px) {
 
     #correct-answers-area {
-        max-width: 600px;
+        max-width: 100%;
     }
 }
 
@@ -339,6 +339,13 @@ footer p {
         width: 200px;
     }
 
+    #highscore-area {
+        font-size: 80%;
+    }
+
+    #correct-answers-area {
+        font-size: 65%;
+    }
     
 }
 
