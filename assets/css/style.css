@@ -288,7 +288,7 @@ footer p {
 @media screen and (max-width: 1440px) {
 
     #correct-answers-area {
-        width: 600px;
+        max-width: 600px;
     }
 }
 
@@ -297,11 +297,11 @@ footer p {
 @media screen and (max-width: 520px) {
 
     #quiz-area, #rules-area, #result-area, #save-score-area, #highscore-area {
-        width: 350px; 
+        max-width: 350px; 
     }
 
     header {
-        width: 350px;
+        max-width: 350px;
     }
 }
 
