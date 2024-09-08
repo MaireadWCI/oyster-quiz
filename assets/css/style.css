@@ -208,13 +208,15 @@ main {
 #counter {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
-    width: 20px;
+    width: 30px;
     padding: 10px;
     margin: 20px auto 0;
     border: 5px solid whitesmoke;
     border-radius: 15px;
     text-align: center;
-    font-size: 150%; 
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
