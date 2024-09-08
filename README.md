@@ -199,6 +199,22 @@ Testing of the functionality of the deployed site can be seen in the following t
 
 <img src="assets/images/readme/lighthouse.png">
 
+### JSHint
+
+No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warnings are present. The warnings relate to the use of ES6. 
+
+#### questions.js 
+
+<img src="assets/images/readme/questions-js.png">
+
+#### script.js 
+
+<img src="assets/images/readme/script-js.png">
+
+#### highscore.js 
+
+<img src="assets/images/readme/highscore-js.png">
+
 # Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
