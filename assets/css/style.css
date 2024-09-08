@@ -316,6 +316,29 @@ footer p {
 
     header {
         margin-left: 25px;
+    }   
+}
+
+/* For screen height 775px and down */
+
+@media screen and (max-height: 775px) {
+
+    #rules-area {
+        font-size: 70%;
+    }
+
+    #quiz-area {
+        font-size: 80%;
+    }
+
+    #question-section {
+        font-size: 100%;
+    }
+
+    .answers {
+        font-size: 100%;
+        height: 30px;
+        width: 200px;
     }
 
     
