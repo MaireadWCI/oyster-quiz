@@ -23,7 +23,7 @@
 /* Header */
 header {
     background-color: rgba(255, 255, 255, 0.6);
-    max-width: 100%;
+    max-width: 35%;
     margin: 20px auto 0;
     border-radius: 15px;
     box-sizing: border-box;
@@ -50,7 +50,7 @@ main {
 
 #rules-area, #save-score-area, #highscore-area{
     background-color: rgba(0, 84, 147, 0.6);
-    max-width: 100%;
+    max-width: 35%;
     padding: 20px;
     margin: 20px auto 0;
     border-radius: 15px;
@@ -182,7 +182,7 @@ main {
 #correct-answers-area {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
-    max-width: 100%;
+    max-width: 50%;
     padding: 20px;
     margin: 20px auto 10px;
     border-radius: 15px;
@@ -314,7 +314,11 @@ footer p {
 
     header {
         margin-left: 25px;
-    }   
+    } 
+    
+    #logo {
+        font-size: 100%;
+    }
 }
 
 /* For screen height 775px and down */
