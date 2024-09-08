@@ -51,7 +51,6 @@ main {
 #rules-area, #save-score-area, #highscore-area{
     background-color: rgba(0, 84, 147, 0.6);
     max-width: 100%;
-    width: 500px;
     padding: 20px;
     margin: 20px auto 0;
     border-radius: 15px;
@@ -183,13 +182,12 @@ main {
 #correct-answers-area {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
-    width: 1000px;
+    max-width: 100%;
     padding: 20px;
     margin: 20px auto 10px;
     border-radius: 15px;
     text-align: center;
     font-size: 100%;
-
 }
 
 /* Score and timer  */
@@ -300,7 +298,7 @@ footer p {
 
 @media screen and (max-width: 520px) {
 
-    #quiz-area, #rules-area, #result-area, #save-score-area, #highscore-area, header, footer {
+    #quiz-area, #rules-area, #result-area, #save-score-area, #highscore-area, #correct-answer-area, header, footer {
         max-width: 100%; 
 
     }
