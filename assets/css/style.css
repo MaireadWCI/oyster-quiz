@@ -293,6 +293,10 @@ footer p {
     #correct-answers-area {
         max-width: 100%;
     }
+
+    header {
+        max-width: 350px;
+    }
 }
 
 /* For screen size 520px and down */
