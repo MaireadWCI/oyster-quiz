@@ -26,6 +26,7 @@ header {
     margin: 20px auto 0;
     border-radius: 15px;
     box-sizing: border-box;
+    max-width: 350px;
 }
 
 /* Background image */
@@ -298,6 +299,16 @@ footer p {
 }
 
 /* Media queries  */
+
+/* For screen size 2560px and down */
+
+@media screen and (max-width: 2560px) {
+
+    header {
+        max-width: 350px;
+    }
+    
+}
 
 /* For screen size 1440px and down */
 
