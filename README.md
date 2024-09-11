@@ -49,7 +49,7 @@ As a user of this quiz:
 <li><a href="https://gitpod.io/" rel="nofollow" alt="gitpod">GitPod</a></li>
 <p>IDE for development.</p>
 <li><a href="http://ami.responsivedesign.is/#" rel="nofollow" alt="am-i-responsive">Am I Responsive?</a></li>
-<p>Used to test the sites responsiveness on differnt devices.</p>
+<p>Used to test the sites responsiveness on different devices.</p>
 <li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow" alt="chrome-dev-tools">Chrome DevTools</a></li>
 <p>Used throughout the project to review code and test reponsiveness.</p>
 <li><a href="https://validator.w3.org/" rel="nofollow" alt="html validator">W3C Markup Validator</a></li>
@@ -183,6 +183,11 @@ Testing of the functionality of the deployed site can be seen in the following t
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 | GitHub link | When clicked the GitHub icon will open a new window to my GitHub repository | Click the GitHub icon| pass
+
+## Responsiveness 
+
+* <strong>Am I Responsive</strong> -  All Areas of this quiz was tested across multiple devices using [Am I Responsive](https://amiresponsive.co.uk/).
+* <strong>Chrome DevTools</strong> - All areas of this quiz was tested for responsiveness and across multiple devices using Chrome DevTools.
 
 ## Validator Testing
 
