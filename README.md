@@ -1,5 +1,9 @@
 # Oyster Quiz
 
+This is a JavaScript quiz all about oysters. It was designed to accompany a website that sells oysters. It is simple, informative and fun. It is comprised of the rules area, quiz area, result area and highscore area. Users answer 15 questions and get a higher score the faster they answer, they can then save their score in a list of highscores and see how they compared to others. 
+
+Visit the deployed site here: [Oyster Quiz](https://maireadwci.github.io/oyster-quiz/index.html)
+
 ![Amiresponsive](./assets/images/readme/am-i-responsive.png)
 
 
