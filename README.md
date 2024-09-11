@@ -156,7 +156,7 @@ Testing of the functionality of the deployed site can be seen in the following t
 | Question area | The question the user is on will change depending on user interaction | Click an answer button, note the question change | Pass
 | Answer buttons | Once an answer is clicked the next question will show | Click any of the answer buttons, note the change in question| Pass
 | Score | The score will increment with each correct answer and remain the same for an incorrect answer | Click the correct answer note the score given, click an incorrect answer note the score staying the same | Pass
-| Score - bonus points | The faster the user answers a question the higher their score(base 10 plus 15 for a correct answer and so on) | Click multiple answers, note the change in score| Fail
+| Score - bonus points | The faster the user answers a question the higher their score(base 10 plus 15 for a correct answer and so on) | Click multiple answers, note the change in score| Pass
 | Timer | Timer will countdown from Fifteen for each question | Click an answer button to see the timer countdown for each new question| Pass
 | Timer runout | When the timer runs out the next question will show and no score will be given | let the timer runout notice the question change and score remain the same | Pass
 | Timer - turn red | Timer will turn red when there is 5 seconds left to answer | Allow the timer to decrement to 5 seconds notice the colour change| Pass 
@@ -167,7 +167,7 @@ Testing of the functionality of the deployed site can be seen in the following t
 |--|--|--|--|
 |Score| Players score is displayed correctly corresponding to the score achieved | Test different scores and checked with the score output | Pass
 |Try again button| Once clicked the try again button will restart the quiz| Click the try again button| Pass
-|Highscore button| Once clicked the highscore button will the the user to the save score area| Click the highscore button| Pass
+|Highscore button| Once clicked the highscore button will direct the user to the save score area| Click the highscore button| Pass
 |Show Correct Answers| Once clicked the show correct answers will display  the correct answers for the quiz| Click the show correct answers | Pass
 
 ## Save Score Area
@@ -175,7 +175,7 @@ Testing of the functionality of the deployed site can be seen in the following t
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |Username input| The user can enter a username| Enter username | Pass
-| Save Score  - empty input| Once clicked with no username entered the save score button will alert the user that a username is needed| Click the save score button with no username selected | Pass
+| Save Score  - empty input| Once clicked with no username entered the save score button will alert the user that a username is required| Click the save score button with no username selected | Pass
 | Save score| Once clicked the users score will be placed into a list of highscores (in ascending order) and this will be displayed| Click the save score button| Pass
 
 ## Footer
