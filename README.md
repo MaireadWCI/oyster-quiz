@@ -51,7 +51,7 @@ As a user of this quiz:
 <li><a href="http://ami.responsivedesign.is/#" rel="nofollow" alt="am-i-responsive">Am I Responsive?</a></li>
 <p>Used to test the sites responsiveness on different devices.</p>
 <li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow" alt="chrome-dev-tools">Chrome DevTools</a></li>
-<p>Used throughout the project to review code and test reponsiveness.</p>
+<p>Used throughout the project to review code and test responsiveness.</p>
 <li><a href="https://validator.w3.org/" rel="nofollow" alt="html validator">W3C Markup Validator</a></li>
 <p>This was used to validate the html in the website.</p>
 <li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow" alt="CSS validator">W3C CSS Validator</a></li>
@@ -251,4 +251,14 @@ local storage: https://stackoverflow.com/questions/60037063/how-to-save-scores-i
 Sorting JavaScript array: https://stackoverflow.com/questions/55326268/how-to-sort-array-of-objects-with-foreach-loop-javascript  
 
 ## image
-https://nypost.com/2023/10/13/woman-ate-48-oysters-on-a-date-what-happened-next-was-shocking/ 
+https://nypost.com/2023/10/13/woman-ate-48-oysters-on-a-date-what-happened-next-was-shocking/
+
+# Acknowledgements
+
+<ul>
+<li>Code Institute community.</li>
+<li>My facilitator Lewis for being a fantastic support.</li>
+</ul>
+
+
+Site deployed at - [Oyster Quiz]( https://maireadwci.github.io/oyster-quiz/index.html)
