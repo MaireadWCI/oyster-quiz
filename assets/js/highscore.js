@@ -13,8 +13,7 @@ function displayScore() {
         usersScoreElement.innerHTML = usersHighScore;
     } else {
         usersScoreElement.innerHTML = 0;
-    }
-    
+    }  
 }
 
 /**

@@ -30,7 +30,6 @@ header {
 }
 
 /* Background image */
-
 body {
     background-image: url('../images/oysters.webp');
     background-repeat: no-repeat;
@@ -47,7 +46,6 @@ main {
 }
 
 /* Rules area */
-
 #rules-area, #save-score-area, #highscore-area{
     background-color: rgba(0, 84, 147, 0.6);
     max-width: 35%;
@@ -90,7 +88,6 @@ main {
 }
 
 /* Quiz area */
-
 #quiz-area {
     background-color: rgba(0, 84, 147, 0.6);
     width: 500px;
@@ -101,7 +98,6 @@ main {
 }
 
 /* Question section */
-
 #question-section {
     display: flex;
     justify-content: center;
@@ -119,7 +115,6 @@ main {
 }
 
 /* Answer section */
-
 #answer-section {
     display: flex;
     justify-content: center;
@@ -146,7 +141,6 @@ main {
 }
 
 /* Result area  */
-
 #result-area {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
@@ -174,7 +168,6 @@ main {
 }
 
 /* Correct answer */
-
 .correct-answer{
     color: rgb(5, 242, 5);
 }
@@ -195,7 +188,6 @@ main {
 }
 
 /* Score and timer  */
-
 #score-timer {
     display: flex;
     justify-content: space-between;
@@ -208,7 +200,6 @@ main {
 }
 
 /* Counter */
-
 #counter {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
@@ -224,7 +215,6 @@ main {
 }
 
 /* Footer */
-
 footer {
     background-color: rgba(255, 255, 255, 0.6);
     height: 50px;
@@ -248,7 +238,6 @@ footer p {
 }
 
 /* Highscore area */
-
 #highscore-link {
     margin-top: 5px;
     text-decoration: none;
@@ -290,7 +279,6 @@ footer p {
 }
 
 /* Save score area */
-
 #save-score-area {
     background-color: rgba(0, 84, 147, 0.6);
     color: whitesmoke;
@@ -303,21 +291,15 @@ footer p {
 }
 
 /* Media queries  */
-
 /* For screen size 2560px and down */
-
 @media screen and (max-width: 2560px) {
-
     header {
         max-width: 350px;
-    }
-    
+    } 
 }
 
 /* For screen size 1440px and down */
-
 @media screen and (max-width: 1440px) {
-
     #correct-answers-area {
         max-width: 100%;
     }
@@ -328,9 +310,7 @@ footer p {
 }
 
 /* For screen size 520px and down */
-
 @media screen and (max-width: 520px) {
-
     #quiz-area, #rules-area, #result-area, #save-score-area, #highscore-area, #correct-answer-area, header, footer {
         max-width: 100%; 
 
@@ -342,18 +322,14 @@ footer p {
 }
 
 /* For screen size 380px and down */
-
 @media screen and (max-width: 390px) {
-    
     #logo {
         font-size: 100%;
     }
 }
 
 /* For screen height 775px and down */
-
 @media screen and (max-height: 775px) {
-
     #rules-area {
         font-size: 70%;
     }
@@ -378,9 +354,5 @@ footer p {
 
     #correct-answers-area {
         font-size: 65%;
-    }
-    
+    }  
 }
-
-
-
